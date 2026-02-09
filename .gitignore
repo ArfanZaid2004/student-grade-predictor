@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Flask
+instance/
+*.sqlite3
+
+# ML models (optional)
+models/*.pkl
+
+# Node
+node_modules/
+build/
+
+# OS
+.DS_Store
+Thumbs.db

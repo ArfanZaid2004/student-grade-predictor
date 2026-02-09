@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Grade Prediction System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Orbitron:wght@500;600&display=swap" rel="stylesheet">
+
+<body>
+
+<div class="container">
+
+    <h1>Student Grade Prediction System</h1>
+
+    <!-- Add Student Form -->
+    <h2>Add Student Data</h2>
+    <form action="/add" method="POST">
+        <input type="number" name="study" placeholder="Weekly Self Study Hours" min="0" max="40" step="0.1" required>
+        <input type="number" name="attendance" placeholder="Attendance Percentage" min="0" max="100" step="0.1" required>
+        <input type="number" name="participation" placeholder="Class Participation (0 - 10)" min="0" max="10" step="0.1" required>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <hr>
+
+    <!-- Student Records Table -->
+    <h2>Student Records</h2>
+    <table>
+        <tr>
+            <th>Study Hours</th>
+            <th>Attendance %</th>
+            <th>Participation</th>
+            <th>Actions</th>
+        </tr>
+
+        {% if students|length == 0 %}
+        <tr>
+            <td colspan="4">No student records found.</td>
+        </tr>
+        {% endif %}
+
+        {% for student in students %}
+<tr>
+    <td>{{ student.weekly_self_study_hours }}</td>
+    <td>{{ student.attendance_percentage }}</td>
+    <td>{{ student.class_participation }}</td>
+    <td>
+        <a href="/predict/{{ student.id }}">Predict |</a>
+        <a href="/delete/{{ student.id }}">Delete</a>
+    </td>
+</tr>
+{% endfor %}
+
+    </table>
+
+</div>
+
+</body>
+</html>
