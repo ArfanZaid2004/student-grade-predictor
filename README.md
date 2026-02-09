@@ -20,7 +20,9 @@ A modern, professional web application for predicting student grades based on st
 
 ### 📈 Student Management
 - **Role Based Login**- Admin and user
+- **Admin-Login**
 - <img width="505" height="213" alt="Image" src="https://github.com/user-attachments/assets/7d51ef67-95e2-47b1-8051-98537bf6208d" />
+- **User-Login**
 - <img width="291" height="151" alt="Image" src="https://github.com/user-attachments/assets/ccb31f03-bd1c-40a4-9e72-3ad8be5317c4" />
 
 - **Add Students** - Form validation with helpful error messages
