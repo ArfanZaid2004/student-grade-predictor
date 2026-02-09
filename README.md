@@ -26,11 +26,11 @@ A modern, professional web application for predicting student grades based on st
 - **View Records** - Organized table with sortable columns
 - <img width="946" height="520" alt="Image" src="https://github.com/user-attachments/assets/8aa3c03c-6cb0-454f-ab65-aaa39fdfac00" />
 - **Predict Grades** - ML-based grade prediction
-- <img width="520" height="494" alt="Image" src="https://github.com/user-attachments/assets/b5ee4368-fd57-4994-95d5-3050e290479d" />
+- <img width="954" height="547" alt="Image" src="https://github.com/user-attachments/assets/e12c3d8c-f729-409f-b03a-a50a558aff96" />
 - **Delete Records** - Confirmation dialogs to prevent accidents
 - <img width="920" height="444" alt="Image" src="https://github.com/user-attachments/assets/9f1e3939-6b39-40b0-940f-768cd600df4a" />
 - **Grade Badges** - Color-coded grade indicators (A, B, C, D)
-- <img width="954" height="547" alt="Image" src="https://github.com/user-attachments/assets/e12c3d8c-f729-409f-b03a-a50a558aff96" />
+- <img width="520" height="494" alt="Image" src="https://github.com/user-attachments/assets/b5ee4368-fd57-4994-95d5-3050e290479d" />
 
 ### 🤖 Machine Learning
 
