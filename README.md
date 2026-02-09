@@ -16,7 +16,12 @@ A modern, professional web application for predicting student grades based on st
 - **Responsive Layout** - Mobile-first design working on all screen sizes
 - **Real-time Search** - Filter students by name or ID instantly
 - **Visual Feedback** - Loading states, success messages, and error alerts
+- **Create Account Page**
+- <img width="903" height="539" alt="Image" src="https://github.com/user-attachments/assets/cc695643-54da-475b-87d0-0f48a7dbb782" />
+- **Login-Page**
 - <img width="391" height="504" alt="Image" src="https://github.com/user-attachments/assets/02148f44-72a8-40cb-a92e-acd908cd1828" />
+- **Dashboard**
+- <img width="903" height="539" alt="Image" src="https://github.com/user-attachments/assets/cc695643-54da-475b-87d0-0f48a7dbb782" />
 ### 📈 Student Management
 - **Role Based Login**-
 - <img width="391" height="504" alt="Image" src="https://github.com/user-attachments/assets/4a73b1dc-4dd4-4339-82df-4a7df26c5e65" />
